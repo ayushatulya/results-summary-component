@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+.ist_section {
+  border-radius: 15px;
+  background: hsla(252, 100%, 63%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(252, 100%, 63%, 1) 0%,
+    hsla(243, 82%, 54%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(252, 100%, 63%, 1) 0%,
+    hsla(243, 82%, 54%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(252, 100%, 63%, 1) 0%,
+    hsla(243, 82%, 54%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6843FF", endColorstr="#332BEA", GradientType=1 );
+  width: 230px;
+  height: 330px;
+  text-align: center;
+  color: #fafecf;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main {
+  display: flex;
+}
+
+.compliment {
+  margin-top: 27px;
+}
+span {
+  font-size: 54px;
+  font-weight: 900;
+}
+
+.marks {
+  margin-top: 35px;
+  border-radius: 100px;
+  background: hsla(255, 71%, 46%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(255, 71%, 46%, 1) 0%,
+    hsla(246, 86%, 57%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(255, 71%, 46%, 1) 0%,
+    hsla(246, 86%, 57%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(255, 71%, 46%, 1) 0%,
+    hsla(246, 86%, 57%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4C22CA", endColorstr="#4734F0", GradientType=1 );
+  padding: 2px;
+  width: 115px;
+  height: 110px;
+  text-align: center;
+}
+.your_result {
+  margin-top: 19px;
+}
+.gratitude {
+  margin-bottom: 8px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.marks_container {
+  display: flex;
+  justify-content: center;
+}
+
+.marks_in_word {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#same {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.nd_division {
+  width: 228px;
+  /*   background: red; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  border-radius: 15px;
+  padding: 24px;
+}
+.heading {
+  margin-bottom: 22px;
+  margin-top: -8px;
+  font-weight: 900;
+  color: #303b59;
+}
+#same {
+  padding-right: 15px;
+  padding-left: 15px;
+  /*   background: blue; */
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: -8px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  font-weight: 550;
+}
+.ist_parameter {
+  background: #fef6f6;
+  color: #fa8c8f;
+}
+
+.nd_parameter {
+  background: #fffbf3;
+  color: #e5b559;
+}
+
+.rd_parameter {
+  background: #f3f3fd;
+  color: #3da68c;
+}
+.th_parameter {
+  background: #f3f3fd;
+  color: #2c3592;
+}
+
+.btn {
+  all: unset;
+  background: #303b59;
+  width: 200px;
+  height: 32px;
+  text-align: center;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #f6feff;
+  transition: 0.3s;
+}
+.continue {
+  display: flex;
+  justify-content: center;
+}
+.maker {
+  margin-top: 20px;
+  color: hsla(230, 59%, 25%, 1);
+
+  color: linear-gradient(
+    90deg,
+    hsla(230, 59%, 25%, 1) 0%,
+    hsla(359, 73%, 39%, 1) 50%,
+    hsla(32, 97%, 59%, 1) 100%
+  );
+
+  color: -moz-linear-gradient(
+    90deg,
+    hsla(230, 59%, 25%, 1) 0%,
+    hsla(359, 73%, 39%, 1) 50%,
+    hsla(32, 97%, 59%, 1) 100%
+  );
+
+  color: -webkit-linear-gradient(
+    90deg,
+    hsla(230, 59%, 25%, 1) 0%,
+    hsla(359, 73%, 39%, 1) 50%,
+    hsla(32, 97%, 59%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1A2766", endColorstr="#AE1B1E", GradientType=1 );
+}
+.btn:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
